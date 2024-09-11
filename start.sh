@@ -26,4 +26,8 @@ EOM
 
 cd tools && go mod init "$URL/tools" && cd ..
 
+cat > README.md <<- EOM
+# $URL
+EOM
+
 rm start.sh
